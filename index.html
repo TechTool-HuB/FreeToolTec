@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tools Pro - Get Premium Features Free</title>
+    <link rel="stylesheet" href="C:\Users\Sachith\Desktop\Web page\style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <style>
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        .floating {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .gradient-text {
+            background: linear-gradient(45deg, #4F46E5, #06B6D4);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        body {
+            background-image: url('C:\Users\Sachith\Desktop\Web page\images\background-image.jpg'); /* Change the path as needed */
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+
+</head>
+
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-sm fixed w-full z-50">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-2">
+                    <svg class="w-8 h-8 text-indigo-600" fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                            d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z">
+                        </path>
+                    </svg>
+                    <span class="text-xl font-bold text-gray-800">AI Tools Pro</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 bg-gradient-to-b from-white to-gray-50">
+        <div class="container mx-auto px-6">
+            <h1 class="text-5xl font-bold mb-6 leading-tight gradient-text">
+                Unlock Premium AI Tools For Free
+            </h1>
+            <p class="text-xl text-gray-600 mb-8">
+                Access professional features of popular AI tools without paying a dime. Start creating amazing content today!
+            </p>
+            <button class="bg-indigo-600 text-white px-8 py-3 rounded-lg hover:bg-indigo-700 transition-colors shadow-lg"
+                onclick="redirectToAd('canva')">
+                Start Now
+            </button>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 gradient-text">Premium Tools Available</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Tool 1: Canva Pro -->
+                <div class="bg-white rounded-xl shadow-lg p-6">
+                    <img src="C:\Users\Sachith\Desktop\Web page\images\canva-icon.png" alt="Canva Pro" class="w-16 h-16 mx-auto mb-4"> <!-- Replace with actual PNG -->
+                    <h3 class="text-xl font-semibold mb-2">Canva Pro</h3>
+                    <p class="text-gray-600 mb-4">Access premium templates, elements, and features for free.</p>
+                    <button onclick="redirectToAd('canva')" class="w-full bg-indigo-600 text-white py-2 rounded-lg">
+                        Get Free Access
+                    </button>
+                </div>
+
+                <!-- Tool 2: ChatGPT Pro -->
+                <div class="bg-white rounded-xl shadow-lg p-6">
+                    <img src="C:\Users\Sachith\Desktop\Web page\images\chatgpt-icon.png" alt="ChatGPT Pro" class="w-16 h-16 mx-auto mb-4"> <!-- Replace with actual PNG -->
+                    <h3 class="text-xl font-semibold mb-2">ChatGPT Pro</h3>
+                    <p class="text-gray-600 mb-4">Experience faster responses and advanced AI capabilities.</p>
+                    <button onclick="redirectToAd('chatgpt')" class="w-full bg-indigo-600 text-white py-2 rounded-lg">
+                        Get Free Access
+                    </button>
+                </div>
+
+                <!-- Tool 3: Midjourney -->
+                <div class="bg-white rounded-xl shadow-lg p-6">
+                    <img src="C:\Users\Sachith\Desktop\Web page\images\midjourney-icon.png" alt="Midjourney" class="w-16 h-16 mx-auto mb-4"> <!-- Replace with actual PNG -->
+                    <h3 class="text-xl font-semibold mb-2">Midjourney</h3>
+                    <p class="text-gray-600 mb-4">Create stunning AI art with premium features enabled.</p>
+                    <button onclick="redirectToAd('midjourney')" class="w-full bg-indigo-600 text-white py-2 rounded-lg">
+                        Get Free Access
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer and Scripts -->
+    <script>
+        // Adsterra redirect function
+        function redirectToAd(tool) {
+            const adsterraLink = "https://www.profitablecpmrate.com/frqhjm60?key=4c7445bcbb02e6e7b8b278272fc3507e"; // Adsterra link
+            window.location.href = adsterraLink;
+        }
+    </script>
+</body>
+
+</html>
