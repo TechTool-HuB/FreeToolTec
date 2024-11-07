@@ -1,7 +1,0 @@
-body {
-    background-image: url("C:\Users\Sachith\Desktop\Web page\images\background-image.jpg"); /* Adjust the path as needed */
-    background-size: cover;          /* Makes the background cover the entire page */
-    background-repeat: no-repeat;    /* Prevents the background from repeating */
-    background-attachment: fixed;    /* Keeps the background fixed when scrolling */
-    background-position: center;     /* Centers the background image */
-}
